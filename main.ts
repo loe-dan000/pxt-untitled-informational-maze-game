@@ -296,7 +296,6 @@ f 1 f . f 1 1 1 1 1 1 f f f f f f . . . . . . .
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, hero, hero.vx, hero.vy)
-    myCorg = corgio.create(SpriteKind.Player, 10, 70)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy()
@@ -949,7 +948,6 @@ info.onLifeZero(function () {
 let vender: Sprite = null
 let info2: Sprite = null
 let levels: Image[] = []
-let myCorg: Corgio = null
 let slash: Sprite = null
 let enemy2: Sprite = null
 let next_level = 0
