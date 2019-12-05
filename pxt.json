@@ -4,7 +4,8 @@
         "device": "*",
         "animation": "*",
         "palette": "*",
-        "storyboard": "*"
+        "storyboard": "*",
+        "corgio": "*"
     },
     "description": "",
     "files": [
