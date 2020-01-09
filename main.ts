@@ -453,22 +453,41 @@ c c c c c c f e f c c c c c c e
 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
 `, false)
     scene.setTile(9, img`
-f a a a a a a c c a a a a a a a c 
-a f f f f f c a a c f f f f f f c 
-a f f f f c a f f f c f f f f f c 
-a f f f c a f f f f f c f f f f c 
-a f f c a f f f f f f f c f f f c 
-a f c a f f f f f f f f f c f f c 
-a c a f f f f f f f f f f f c f c 
-c a f f f f f f f f f f f f f c c 
-c a f f f f f f f f f f f f c f c 
-a c f f f f f f f f f f f c a f c 
-a f c f f f f f f f f f c a f f c 
-a f f c f f f f f f f c a f f f c 
-a f f f c f f f f f c a f f f f c 
-a f f f f c f f f c a f f f f f c 
-a f f f f f c f c a f f f f f f c 
-a f f f f f f f f f f f f f f f c 
+a a a a a a a c c a a a a a a a c 
+a a a f f a c a a c a f f a a a c 
+a a f f a c f f f f c a f f a a c 
+a f f a c f f f f f f c a f f a c 
+a f a c f f f f f f f f c a f f c 
+a a c f f f f f f f f f f c a f c 
+a c f f f f f f f f f f f f c a c 
+c a f f f f f f f f f f f f a c c 
+c a f f f f f f f f f f f f a c c 
+a c f f f f f f f f f f f f c a c 
+a a c f f f f f f f f f f c a f c 
+a f a c f f f f f f f f c a f f c 
+a f f a c f f f f f f c a f f a c 
+a a f f a c f f f f c a f f a a c 
+a a a f f a c a a c a f f a a a c 
+a a a a f f a c c a f f a a a a c 
+c c c c c c c c c c c c c c c c a 
+`, false)
+    scene.setTile(10, img`
+a a a a a a a c c a a a a a a a c 
+a a a f f a c a a c a f f a a a c 
+a a f f a c f f f f c a f f a a c 
+a f f a c f f f f f f c a f f a c 
+a f a c f f f f f f f f c a f f c 
+a a c f f f f f f f f f f c a f c 
+a c f f f f f f f f f f f f c a c 
+c a f f f f f f f f f f f f a c c 
+c a f f f f f f f f f f f f a c c 
+a c f f f f f f f f f f f f c a c 
+a a c f f f f f f f f f f c a f c 
+a f a c f f f f f f f f c a f f c 
+a f f a c f f f f f f c a f f a c 
+a a f f a c f f f f c a f f a a c 
+a a a f f a c a a c a f f a a a c 
+a a a a f f a c c a f f a a a a c 
 c c c c c c c c c c c c c c c c a 
 `, false)
     scene.setTile(7, img`
@@ -506,6 +525,78 @@ f f f f f f f f f f f f f f f f
 6 6 f f 6 6 6 6 6 6 f f 6 6 6 6 
 f f f f f f f f f f f f f f f f 
 f f f f f f f f f f f f f f f f 
+`, false)
+    scene.setTile(13, img`
+f a a a a a a c c a a a a a a c 
+a f f f f f c a a c f f f f f c 
+a f f f f c a f f f c f f f f c 
+a f f f c a f f f f f c f f f c 
+a f f c a f f f f f f f c f f c 
+a f c a f f f f f f f f f c f c 
+a c a f f c f f f f f f f f c f 
+c a f f c c f f f f f f f f f c 
+c a f c c c c c c c f f f f c a 
+a c f f c c f f f f f f f c a c 
+a f c f f c f f f f f f c a f c 
+a f f c f f f f f f f c a f f c 
+a f f f c f f f f f c a f f f c 
+a f f f f c f f f c a f f f f c 
+a f f f f f c f c a f f f f f c 
+c c c c c c f c a c c c c c c a 
+`, false)
+    scene.setTile(4, img`
+f a a a a a a c c a a a a a a c 
+a f f f f f c a a c f f f f f c 
+a f f f f c a f f f c f f f f c 
+a f f f c a f f f f f c f f f c 
+a f f c a f f f f f f f c f f c 
+a f c a f f f f f f f f f c f c 
+a c a f f f f c f f f f f f c f 
+c a f f f f f c f f f f f f f c 
+c a f f f f f c f f f f f f c a 
+a c f f f f f c f f f f f c a c 
+a f c f f c c c c c f f c a f c 
+a f f c f f c c c f f c a f f c 
+a f f f c f f c f f c a f f f c 
+a f f f f c f f f c a f f f f c 
+a f f f f f c f c a f f f f f c 
+c c c c c c f c a c c c c c c a 
+`, false)
+    scene.setTile(14, img`
+f a a a a a a c c a a a a a a c 
+a f f f f f c a a c f f f f f c 
+a f f f f c a f f f c f f f f c 
+a f f f c a f f f f f c f f f c 
+a f f c a f f f f f f f c f f c 
+a f c a f f f f f f c f f c f c 
+a c a f f f f f f f c c f f c f 
+c a f f f c c c c c c c c f f c 
+c a f f f f f f f f c c f f c a 
+a c f f f f f f f f c f f c a c 
+a f c f f f f f f f f f c a f c 
+a f f c f f f f f f f c a f f c 
+a f f f c f f f f f c a f f f c 
+a f f f f c f f f c a f f f f c 
+a f f f f f c f c a f f f f f c 
+c c c c c c f c a c c c c c c a 
+`, false)
+    scene.setTile(1, img`
+f a a a a a a c c a a a a a a c 
+a f f f f f c a a c f f f f f c 
+a f f f f c a f f f c f f f f c 
+a f f f c a f f c f f c f f f c 
+a f f c a f f c c c f f c f f c 
+a f c a f f c c c c c f f c f c 
+a c a f f f f f c f f f f f c f 
+c a f f f f f f c f f f f f f c 
+c a f f f f f f c f f f f f c a 
+a c f f f f f f c f f f f c a c 
+a f c f f f f f f f f f c a f c 
+a f f c f f f f f f f c a f f c 
+a f f f c f f f f f c a f f f c 
+a f f f f c f f f c a f f f f c 
+a f f f f f c f c a f f f f f c 
+c c c c c c f c a c c c c c c a 
 `, false)
     scene.setTile(6, img`
 f a a a a a a c f a a a a a a c 
@@ -566,51 +657,51 @@ c c c c c c c c c c c c c c c c f f 7 7 2 f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
 c c c c c c c c c c c c c c c c f f 7 f f f 9 9 9 9 9 9 9 9 f f f 9 9 9 9 9 9 9 9 9 9 f f f 9 9 9 9 9 9 f f f 9 9 9 9 9 9 9 9 9 
 c c c c 8 8 8 8 8 8 c c c c c c f f 7 7 f f f 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 f f f 9 f f f f 9 f f f 9 9 9 9 9 9 9 9 9 
 c c c 8 8 8 8 8 8 8 9 c c c c c f f f 7 7 f f f 9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 
-c c 8 8 8 8 8 8 8 9 9 9 c c c c f f f f 7 7 f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-c c 8 8 8 8 8 8 9 9 9 9 9 c c c c f f f f 7 7 f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-c c 8 8 8 8 8 9 9 9 9 9 9 9 c c c 9 f f f f 7 7 f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-c c 8 8 8 8 9 9 9 9 9 9 9 9 9 c c 9 9 f f f f 7 7 f f f 9 9 9 9 9 f f f f f 9 5 5 5 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f 9 9 9 9 9 
-c c 8 8 8 3 3 3 3 9 3 3 3 3 3 9 9 9 9 9 f f f f 7 f f f f 9 9 9 9 9 f f f f f 5 5 5 5 5 5 5 5 5 5 f f f f f f f f f f 9 9 9 9 9 
-c c 8 8 9 3 9 9 9 9 3 9 9 9 3 9 9 9 9 9 9 f f f 7 7 f f f f f 9 9 9 9 f f f f f 5 5 5 2 9 9 9 9 5 5 5 5 f f f f f f f 9 9 9 9 9 
-c c c 9 9 3 9 3 3 9 3 9 9 9 3 9 9 9 9 9 3 9 9 f f 7 7 f f f f 9 9 9 9 9 f f f 9 5 5 5 5 5 5 5 9 9 9 9 5 f f f f f f f 9 9 9 9 9 
-c c c c 9 3 9 9 3 9 3 9 9 9 3 9 9 9 9 3 9 9 9 f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 5 5 5 5 9 5 5 9 9 b f f f f 9 9 9 9 
-c c c c c 3 3 3 3 9 3 3 3 3 3 9 9 9 3 9 9 9 9 9 f f f 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 5 9 5 5 9 9 f f f f f 9 9 9 9 
-c c c c c c 9 9 9 9 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 5 5 5 9 9 9 5 9 5 5 9 9 f f f f f 9 9 9 9 
-c c c c c c c 9 9 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 f f 7 7 f f f f f 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 9 5 9 9 f f f f f f 9 9 9 9 
-c c c c c c c c 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 f f 7 7 7 f f f f 9 9 9 9 9 5 9 9 9 9 9 9 9 9 9 5 9 9 f f f f f f 9 9 9 9 
-f f f f f c c c 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f 7 7 7 f f f 9 9 9 9 5 9 5 5 5 5 5 5 5 5 5 9 9 f f f f f 9 9 9 9 9 
-f f f f f f f f f 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 5 9 5 5 5 5 9 9 5 5 5 9 9 f f f f f f f 9 9 9 
-f f f f f f f f f 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 5 5 5 9 9 5 5 5 9 9 9 f f f f f f 9 9 9 
-7 7 7 7 f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 5 5 5 9 9 9 f f f f f f 9 9 9 
-7 f f 7 f f f f f f 7 7 f f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 
-7 f f 7 f f f f f f f 7 f f 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-2 f f 7 7 7 7 7 7 7 7 7 f f 7 f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-f f f f f f f f f f 7 7 f f 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 f f f f f f f f f 7 7 f 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 f f f 7 f f f f f 7 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 f f 7 7 f f f f 7 7 7 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 9 f f 7 7 f f f f 7 f f 7 f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 9 9 f f 7 f f f f 7 f f 7 7 7 7 7 7 7 7 7 7 7 7 7 f f 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 f f f 9 9 9 f 7 7 f f f 7 f f f f f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 f f f 9 9 9 f f 7 7 f f 7 f f 9 9 9 f f f f f 9 9 9 9 f f f 9 9 9 9 9 9 9 9 9 9 9 f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 
-9 f f f f 9 9 9 f f 7 7 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 9 9 9 f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 
-9 f f f f 9 9 9 9 f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 9 9 9 9 f f f 7 7 7 f f f f f 9 9 9 9 9 9 9 9 9 
-9 9 f f f 9 9 9 9 9 f f f 7 f f f f 9 9 9 9 9 9 9 9 9 9 f f b 9 9 9 9 9 f f f f f 9 9 9 9 b f f f 7 7 7 f f f f 9 9 9 9 9 9 9 9 
-9 9 f f f f 9 9 9 9 9 f f 7 7 7 7 f f f f f f f f 9 9 9 f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 
-9 9 f f f f 9 9 9 9 9 9 f f f f 7 7 7 7 f f f f f 9 9 9 f f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 f f f f 7 7 8 f f f 9 9 9 9 9 9 
-9 9 9 f f f 9 9 9 9 9 9 f f f f f f f 7 f f f f f 9 9 9 f f f f 9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 f f f f f f f f f 9 9 9 9 9 9 
-9 9 9 f f f 9 9 9 9 9 9 f f f f f b f 7 7 f f f 9 9 9 9 9 f f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 f f f f f f f f 9 9 9 9 9 9 
-9 9 9 f f f f 9 9 9 f f f f f 9 9 b f f 7 f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 f f b 9 9 9 9 9 9 9 9 9 f f f f f f 9 9 9 9 9 9 
-9 9 9 f f f f 9 9 9 f f f f f 9 f f f f 7 7 f 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 f f f 9 f f 9 9 9 9 9 9 9 f f f f f b 9 9 9 9 9 9 
-9 9 9 9 f 9 9 9 9 9 f f f f f 9 f f f f f 7 f f 9 9 9 9 9 9 f f f f 9 9 9 9 f f f 9 9 f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 f 9 f f 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f 9 9 9 9 9 9 f f f 9 9 9 9 f 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 f 9 9 f 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 f f f 9 9 9 f f 9 f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 f f 9 f 9 9 9 9 9 9 9 9 9 9 f f f f f 7 f f f 9 9 9 9 f f f 9 9 f f 9 9 f 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 9 f 9 f 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 f f 9 9 f f 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 9 f 9 f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 f f 9 9 f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
-9 9 9 9 9 f 9 f f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 f f 9 9 f f 9 9 9 9 9 b 9 f f f 9 9 9 9 9 9 9 9 9 9 f f 9 9 9 
-9 9 9 9 9 f 9 9 f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 8 f f f f f 9 f 9 9 f f 9 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 f f 9 9 9 9 
-9 9 9 9 9 f f 9 f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f f 9 f f 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 f f 9 9 9 9 9 
+c c 8 8 8 8 8 8 8 9 9 9 c c c c f f f f 7 7 f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 f 9 9 f f 9 9 f 9 9 9 9 9 9 9 9 9 9 9 
+c c 8 8 8 8 8 8 9 9 9 9 9 c c c c f f f f 7 7 f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 f 9 9 f f 9 9 f 9 9 9 9 9 9 9 9 9 9 9 
+c c 8 8 8 8 8 9 9 9 9 9 9 9 c c c f f f f f 7 7 f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 f 9 9 9 9 9 9 f 9 9 9 9 9 9 9 9 9 9 9 
+c c 8 8 8 8 9 9 9 9 9 9 9 9 9 c c f f f f f f 7 7 f f f 9 9 9 9 9 f f f f f 9 9 9 9 9 9 9 f f f f f f f f 9 9 9 f f f 9 9 9 9 9 
+c c 8 8 8 3 3 3 3 9 3 3 3 3 3 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 9 
+c c 8 8 9 3 9 9 9 9 3 9 9 9 3 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 f f f f f f 5 5 5 5 5 5 5 5 5 5 5 f f f f f f f 9 9 9 9 9 
+c c c 9 9 3 9 3 3 9 3 9 9 9 3 9 9 9 9 9 3 9 f f f f 7 7 f f f 9 9 9 9 9 f f f f f 5 2 9 9 9 9 9 9 9 9 5 f f f f f f f 9 9 9 9 9 
+c c c c 9 3 9 9 3 9 3 9 9 9 3 9 9 9 9 3 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 9 5 9 9 9 b f f f f 9 9 9 9 
+c c c c c 3 3 3 3 9 3 3 3 3 3 9 9 9 3 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 5 9 9 9 9 9 9 9 5 9 5 9 9 9 f f f f f 9 9 9 9 
+c c c c c c 9 9 9 9 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 5 5 5 5 5 5 5 5 5 9 5 9 9 9 f f f f f 9 9 9 9 
+c c c c c c c 9 9 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 5 9 9 9 9 9 9 9 9 9 5 9 9 f f f f f f 9 9 9 9 
+c c c c c c c c 9 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 5 9 5 5 5 5 5 5 5 5 5 9 9 f f f f f f 9 9 9 9 
+f f f f f c c c 9 9 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 5 9 5 9 9 9 9 9 9 9 5 9 9 f f f f f f 9 9 9 9 
+f f f f f f f f f 9 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 5 1 5 5 5 5 5 5 5 5 5 9 9 f f f f f f f 9 9 9 
+f f f f f f f f f 9 9 9 3 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f 9 9 9 
+7 7 7 7 f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f 9 9 9 
+7 f f 7 f f f f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 
+7 f f 7 f f f f f f f f f f 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+2 f f 7 7 7 7 7 7 7 7 7 f f 7 f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+f f f f f f f f f f f 7 f f 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 f f f f f f f f f 7 7 f 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 f f f f f f f f f 7 7 7 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 f f f f f f f f 7 7 7 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 f f f f f f f f 7 f f 7 f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 9 f f f f f f f 7 f f 7 7 7 7 7 7 7 7 7 7 7 7 7 f f 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 f f f 9 9 9 f f f f f f 7 f f f f f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 f f f 9 9 9 9 f f f f f 7 f f 9 9 9 f f f f f 9 9 9 9 f f f 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 
+9 f f f f 9 9 9 9 f f f f 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 9 9 9 f f f f 7 7 f f f f 9 9 9 9 9 9 9 9 9 9 9 
+9 f f f f 9 9 9 9 9 f f f 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 9 9 9 9 f f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 9 
+9 9 f f f 9 9 9 9 9 9 f f 7 f f f f 9 9 9 9 9 9 9 9 9 9 f f b 9 9 9 9 9 f f f f f 9 9 9 9 b f f f 7 7 f f f f f 9 9 9 9 9 9 9 9 
+9 9 f f f f 9 9 9 9 9 9 f 7 7 7 7 f f f f f f f f 9 9 9 f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 f f f f 7 7 f f f f f 9 9 9 9 9 9 9 
+9 9 f f f f 9 9 9 9 9 9 f f f f 7 7 7 7 7 f f f f 9 9 9 f f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 f f f f 7 7 d 8 f f f 9 9 9 9 9 9 
+9 9 9 f f f 9 9 9 9 9 9 f f f f f f f f 7 f f f f 9 9 9 f f f f 9 9 9 9 9 9 f f f f f 9 9 9 9 9 f f f f f f f f f f 9 9 9 9 9 9 
+9 9 9 f f f 9 9 9 9 9 9 f f f f f b f f 7 f f f 9 9 9 9 9 f f f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 f f f f f f f f f 9 9 9 9 9 9 
+9 9 9 f f f f 9 9 9 f f f f f 9 9 b f f 7 f f 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 f f b 9 9 9 9 9 9 9 f f f f f f f f 9 9 9 9 9 9 
+9 9 9 f f f f 9 9 9 f f f f f 9 f f f f 7 f f 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 f f f 4 f f 9 9 9 9 9 9 f f f f f f b 9 9 9 9 9 9 
+9 9 9 9 f 4 d d 9 9 f f f f f 9 f f f f 7 f f f 9 9 9 9 9 9 f f f f 9 9 9 9 f f f 9 9 f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 f 4 f f 9 9 9 9 9 9 9 9 9 f f f 7 f f f f 9 9 9 9 9 9 f f f 9 9 9 9 f 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 f e 4 f 9 9 9 9 9 9 9 9 9 9 f f 7 7 7 7 f f f 9 9 9 9 f f f 9 9 9 f f 9 f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 f f 4 f 9 9 9 9 9 9 9 9 9 9 f f f f f 7 f f f 9 9 9 9 f f f 9 9 f f 9 9 f 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 f 4 f 9 9 9 9 9 9 9 9 9 9 9 f f f f 7 f f f f 9 9 9 9 9 9 9 f f 9 9 f f 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 f 4 f 9 9 9 9 9 9 9 9 9 9 9 9 f f f 7 f f f f f f 9 9 9 9 f f 9 9 f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+9 9 9 9 9 f 4 f f 9 9 9 9 9 9 9 9 9 9 9 9 f f 7 7 7 d f f f f 9 9 f f 9 9 f f 9 9 9 9 9 b 9 f f f 9 9 9 9 9 9 9 9 9 9 f f 9 9 9 
+9 9 9 9 9 f e 4 f 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f 8 f f f f f 9 f 9 9 f f 9 9 9 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 f f 9 9 9 9 
+9 9 9 9 9 f f 4 f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f f 9 f f 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 f f 9 9 9 9 9 
 9 9 9 9 9 9 f b f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f 9 9 f 9 9 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 9 f 9 9 9 9 9 9 
 9 f f f f 9 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f 9 f f 9 9 9 9 f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 
 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f 9 9 f f f 9 9 9 f f f f f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 
@@ -623,73 +714,73 @@ f f f f f f f f f f 7 7 f f 7 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f 7 7 
 f f 9 9 9 f f f f 9 9 9 f f f f f f 9 9 9 9 9 9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f 9 9 9 9 9 
 9 f f 9 9 f f f f 9 9 9 f f f 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f f 9 9 9 9 9 
 9 9 f 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f f f f 9 f f f f f f f f f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 
-9 9 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f 9 9 f 9 f f f f f f f f f f f f f f f f f f f f 9 9 9 9 9 f f 9 9 
+9 9 f 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 9 f f f f f f f f f f 9 9 f 9 f f f f f f f f f f f f f f f f f f f f 9 9 9 9 9 f f 9 9 
 9 9 f 9 9 9 9 f f f f f 9 9 9 9 9 9 9 9 9 f f f f f f f f 9 9 9 9 f 9 f f f f f f f f f f f f f f f 9 9 9 9 9 9 9 9 9 9 9 f f 9 
 9 9 f 9 9 9 9 9 f f f f 9 9 9 9 9 9 9 9 9 f f f 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 f f 
 `, img`
-c d d d d d d c c d d d d d d c f f f f f f f f f f f f f f f f 1 1 1 f 9 9 9 9 
-d 1 1 1 1 1 1 1 1 1 1 1 1 c c c f 1 1 1 b f b 1 f f b 1 1 1 f f 1 f b f 9 9 9 9 
-d 1 1 1 1 1 1 1 d c c c 1 c 9 9 f 1 1 f f f f 1 1 f f f f 1 f f 1 f f f f f 9 9 
-d 1 1 1 1 1 1 1 d c 1 1 1 c 9 9 f f 1 1 f f f f 1 f b 1 1 1 f 1 1 f 5 5 5 f 9 9 
-d 1 1 1 1 1 1 1 d c 8 c c c 9 9 f f f 1 f f 1 1 1 f f f f 1 f f 1 1 1 1 5 f f f 
-d 1 1 1 1 1 1 1 d c c c c c c c f f 1 1 f 1 1 f f f b 1 1 1 f f f 1 f 1 5 5 5 f 
-2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f f b f f 1 f f f b 1 1 f 1 1 1 5 5 
-1 1 1 1 1 1 1 c c c c c c c c c f f f 1 f 1 1 1 1 f f 1 f c f f f 1 f 5 5 1 1 5 
-b d d d d d 1 c b d d d d d d c f f f 1 f f 1 1 f f 1 1 f f f 1 1 1 f f 5 5 1 2 
-d 1 1 1 1 1 1 c d b c c c c c c f f f 1 f f 1 1 1 1 1 1 1 1 1 1 f 1 1 f f 5 5 5 
-d 1 c c c c c c d 1 c c 9 9 c c f 1 1 1 f f 1 f 1 1 1 1 f f 1 f f f 1 1 f f f f 
-d 1 1 c 9 9 9 c d 1 c c 9 9 c c f 1 f f f f 1 f f 1 f 1 1 f 1 f c f f 1 1 1 f c 
-c c 1 c 9 9 9 c d 1 1 c 9 9 c b 1 1 f f f 1 1 f b 1 f 1 1 f 1 f f f f f f 1 f c 
-c c 1 c c c c c d c 1 c c c c c f f f f f 1 f f f f 1 1 f f 1 1 1 1 b f f b f c 
-c c 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 a f 1 b f f b 1 f f f f 1 1 f f f f f f c 
+c d d d d d d c c d d d d d d c f f f f f f f f f f f f f f f f a a a f 9 9 9 9 
+d a a a a a a a a a a a a c c c f a a a b f b a f f b a a a f f a f b f 9 9 9 9 
+d a a a a a a a d c c c a c 9 9 f a a f f f f a a f f f f a f f a f f f f f 9 9 
+d a a a a a a a d c a a a c 9 9 f f a a f f f f a f b a a a f a a f 5 5 5 f 9 9 
+d a a a a a a a d c 8 c c c 9 9 f f f a f f a a a f f f f a f f a a a a 5 f f f 
+d a a a a a a a d c c c c c c c f f a a f a a f f f b a a a f f f a f a 5 5 5 f 
+2 a a a a a a a a a a a a a a a a a a a a a f f b f f a f f f b a a f a a a 5 5 
+a a a a a a a c c c c c c c c c f f f a f a a a a f f a f c f f f a f 5 5 a a 5 
+b d d d d d a c b d d d d d d c f f f a f f a a f f a a f f f a a a f f 5 5 a 2 
+d a a a a a a c d b c c c c c c f f f a f f a a a a a a a a a a f a a f f 5 5 5 
+d a c c c c c c d a c c 9 9 c c f a a a f f a f a a a a f f a f f f a a f f f f 
+d a a c 9 9 9 c d a c c 9 9 c c f a f f f f a f f a f a a f a f c f f a a a f c 
+c c a c 9 9 9 c d a a c 9 9 c b a a f f f a a f b a f a a f a f f f f f f a f c 
+c c a c c c c c d c a c c c c c f f f f f a f f f f a a f f a a a a b f f b f c 
+c c a a a a a a a a a a a a a a a a a a f a b f f b a f f f f a a f f f f f f c 
 `, img`
-3 d d d d d d 3 3 d d d d d d 3 f f f f f f f f f f f f f f f f 1 1 1 f f 1 1 1 1 f f f f f f f 
-d 1 1 1 1 1 1 1 1 1 1 1 1 f f 3 f 1 1 1 b f b 1 f f b 1 1 1 f f 1 f 1 1 f 1 f f 1 f f f f 2 f f 
-d 1 8 8 8 8 8 3 d f f f 1 f f 3 f 1 1 f f f f 1 1 f f f f 1 f f 1 f f b f 1 f f 1 f f f f 6 f f 
-d 1 8 8 8 8 8 3 d f 1 1 1 f f 3 f f 1 1 f f f f 1 f b 1 1 1 f 1 1 f f f f 1 b f 1 f f f f 6 f f 
-d 1 8 8 8 8 8 3 d f 8 f f f f 3 f f f 1 f f 1 1 1 f f f f 1 f f 1 1 1 1 f f f f 1 f f f 6 6 f f 
-d 1 8 8 8 8 8 3 d f f f f f f 3 f f 1 1 f 1 1 f f f b 1 1 1 f f f 1 f 1 f f f f 1 f f 6 6 f f f 
-d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f f 1 f f 1 f f f b 1 1 f 1 1 1 f f 1 f f 6 f f f f 
-3 3 3 3 3 3 1 a 3 3 3 3 3 3 3 a f f f 1 f 1 1 1 1 f f 1 f f f f f 1 f f f 1 1 1 1 f f 6 f f f f 
-3 d d d d d 1 3 3 d d d d d d 3 f f f 1 f f 1 1 f f 1 1 f f f 1 1 1 f f f f 1 f f f f 6 6 6 f f 
-d 1 1 1 1 1 1 3 d 1 f f f f f 3 f f f 1 f f 1 1 1 1 1 1 1 1 1 1 f 1 f f f f f f f f f f f 6 f f 
-d 1 f f f f f 3 d 1 f f f f f 3 f 1 1 1 f f 1 f 1 1 1 1 f f 1 f f 1 1 1 1 1 f f f f f f f 6 6 f 
-d 1 1 f f f f 3 d 1 f f f f f 3 f 1 f f f f 1 f f 1 f 1 1 f 1 f f f f f 1 1 f f f f f f f f 6 f 
-d f 1 f f f f 3 d 1 1 f f f b 1 1 1 f f f 1 1 f 1 1 f 1 1 f 1 f f f f f f 1 f f f f f 6 6 6 6 f 
-d f 1 f f f f 3 d 8 1 f f f 6 6 6 6 f f f 1 f f f f f 1 f f 1 1 1 1 b f f b f f f 6 6 6 f f f f 
-d f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b f 1 b f f b 1 1 f f f 1 1 f f f f f f f 6 6 f f f f f f 
-f f f f f f f f f f f 6 f f f f f f f f f f f f f f f f f f f 1 f f f f f f 6 6 6 f f f f f f f 
-f f f f f f f f f f f 6 f f f f f f f f f 1 1 f f f 1 1 f 1 f 1 f f f 6 6 6 6 f f f f f b 1 1 f 
-f f f f f f f f f f f 6 f f f f f f f f 1 1 f f f 1 1 f f 1 f 1 f f 6 6 f f f f b 1 1 1 1 f f f 
-1 1 1 1 1 1 1 1 1 1 1 6 1 1 1 1 1 1 1 1 1 f f f 1 1 f f 1 1 f 1 f 8 6 f f f 6 1 1 f f f f f f f 
-f 1 f f f f f f f f f 6 f f f f f f 1 1 1 f f 1 1 f f 1 1 f f 1 f f f f b 1 6 f f f f f f f f f 
-f 1 1 f f f f f f f f 6 f f f f f f f 1 f f 1 1 1 1 1 1 b f f 1 f f f 1 1 f 6 f f f f f f f f f 
-f f 1 f f f b 1 1 1 1 1 1 1 f f f f f 1 f f 1 f f f f 1 1 f f 1 6 6 1 1 f f 6 f f f f f f f f f 
-f f 1 f f f f f f f f f f f f f f f f 1 f f 1 f f f f 1 1 f f 1 f f f f f f 6 f f f f f f a f f 
-f f 1 1 f f 9 9 9 f 1 b f f f f f f f 1 f 1 1 1 f f 1 1 f f 1 b f f f f f f 9 f f f f f f 6 f f 
-f f f 1 1 9 9 9 9 f f 1 f f f 1 f f f 1 f f f f f 1 1 f f f 1 f f f f f f f 9 f f f f f f 6 f f 
-f f f f 1 f 9 9 9 9 f 1 b f f b 1 f f 1 f f 1 1 1 1 f f f f 1 f f f f f f f b 9 f f f f f 6 f f 
-f f 1 1 1 f f 9 9 9 f f 1 f f f 1 1 f 1 f f 1 f f f f f f 1 b f f f f f f f f 9 f f f f f 6 f f 
-f 1 1 f 1 1 f f 9 9 9 f 1 b f f f 1 f 1 f f 1 f f f 1 1 1 b f f f f f f f f f b 9 f f f f 6 f f 
-f f f f 1 1 1 f f 9 9 f f 1 6 6 6 6 6 6 1 1 1 f 1 1 b f f f f f f f f f f f f f 9 f f f f 8 f f 
-f f f f 1 f 1 1 f 9 9 9 f 1 f f f f f f f f 1 1 b f f f f f f f f f f f f f f f 9 b f f f 8 f f 
-f f f 1 1 f f 1 f f 9 9 f b 1 f f f f f f f b f f f f f f f f f f f f 1 1 1 6 f f 9 f f f f f f 
-f f 1 1 f f f 1 1 f f f f f 1 1 f f f f f 1 1 f f f f f f f f f f 1 1 6 f f 6 f f 9 b f f f f f 
-f f 1 f f f f f 1 1 f f f f f f f f f 6 1 1 f f f f f f f 1 1 1 1 6 f f f f 6 f f f 9 f f f f f 
-f 1 1 1 1 f f f f 1 b f f f f f f 1 1 1 b f f f f f 1 1 1 6 f f f f f f f f 6 f f f 9 b f f f f 
-f 1 f f 1 1 f f f f f f f 1 f f f f f f f f f f 1 1 6 f f f f f f f f f f f 6 f 1 f f 9 f f f f 
-f f f f f 1 1 1 f f f f f 1 f f f f f f f f 1 1 6 f f f f f f f f f f f f f 6 6 1 f f 9 6 6 6 6 
-f b 1 1 f f f 1 1 1 f f 1 6 6 6 6 6 6 6 1 6 6 f f f f f f f f f f f f f f f 6 1 f f f f f f f 6 
-f f f 1 1 f f f f 1 f f 1 f f f f f 1 1 f f f f f f f f f f b f f f f f f 6 1 f f f f f f f f 6 
-f f f f 1 1 1 1 1 1 f f 1 f f f f f f f f f f f f f f f f 1 1 f f f f f 6 1 f f f f f f f f 1 1 
-f f f f 1 1 f f f 1 f f 1 f f f f f f f f f f f f f f 1 1 1 f f f f f f 9 f f f f f f f f f 1 f 
-f f f 1 1 f f f f 6 f f f f f f f 1 1 6 6 6 6 6 6 f 1 1 f f f f f f f f 9 f f f f f b 1 1 1 b f 
-f f f 1 f f f f f 6 f f f f f f 1 1 f f f f f f 6 6 6 f f f f f f f f 1 6 6 f f f f 1 f f f f f 
-f f f f f f f f f 6 f f f f 1 1 1 f f f f f f f 1 1 f f f f f f f f 1 1 f 6 6 6 f f 1 f f f f f 
-f f f f f f f f f 6 f 1 1 1 1 f f f f f f f 1 1 1 f f f f f f f f 6 1 f f f f 6 6 1 b f f f f f 
-f f f f 5 5 5 5 1 1 1 1 f f f f f f f f 1 1 1 f f f f f f f f f 6 1 f f f f b 1 f f f f f f f f 
-f f 5 5 5 1 1 1 1 5 f f f f f f f f f 1 1 f f f f f f f f f f f 1 f f f f f 1 6 f f f f f f f f 
-f f 5 2 1 1 5 5 5 5 f f f f f f f f b 1 f f f f f f f f f f f f b f f f f f f f f f f f f f f f 
+3 d d d d d d 3 3 d d d d d d 3 f f f f f f f f f f f f f f f f a a a f f a a a a f f f f f f f 
+d a a a a a a a a a a a a f f 3 f a a a b f b a f f b a a a f f a f a a f a f f a f f f f 2 f f 
+d a 8 8 8 8 8 3 d f f f a f f 3 f a a f f f f a a f f f f a f f a f f b f a f f a f f f f 6 f f 
+d a 8 8 8 8 8 3 d f a a a f f 3 f f a a f f f f a f b a a a f a a f f f f a b f a f f f f 6 f f 
+d a 8 8 8 8 8 3 d f 8 f f f f 3 f f f a f f a a a f f f f a f f a a a a f f f f a f f f 6 6 f f 
+d a 8 8 8 8 8 3 d f f f f f f 3 f f a a f a a f f f b a a a f f f a f a f f f f a f f 6 6 f f f 
+d a a a a a a a a a a a a a a a a a a a a a f f a f f a f f f b a a f a a a f f a f f 6 f f f f 
+3 3 3 3 3 3 a a 3 3 3 3 3 3 3 a f f f a f a a a a f f a f f f f f a f f f a a a a f f 6 f f f f 
+3 d d d d d a 3 3 d d d d d d 3 f f f a f f a a f f a a f f f a a a f f f f a f f f f 6 6 6 f f 
+d a a a a a a 3 d a f f f f f 3 f f f a f f a a a a a a a a a a f a f f f f f f f f f f f 6 f f 
+d a f f f f f 3 d a f f f f f 3 f a a a f f a f a a a a f f a f f a a a a a f f f f f f f 6 6 f 
+d a a f f f f 3 d a f f f f f 3 f a f f f f a f f a f a a f a f f f f f a a f f f f f f f f 6 f 
+d f a f f f f 3 d a a f f f b a a a f f f a a f a a f a a f a f f f f f f a f f f f f 6 6 6 6 f 
+d f a f f f f 3 d 8 a f f f 6 6 6 6 f f f a f f f f f a f f a a a a b f f b f f f 6 6 6 f f f f 
+d f a a a a a a a a a 4 a a a a a a a b f a b f f b a a f f f 4 a f f f f f f f 6 6 f f f f f f 
+f f f f f f f f f f f 6 f f f f f f f f f f f f f f f f f f f 6 f f f f f f 6 6 6 f f f f f f f 
+f f f f f f f f f f f 6 f f f f f f f f f a a f f f a a f a f 6 f f f 6 6 6 6 f f f f f b a a f 
+f f f f f f f f f f f 6 f f f f f f f f a a f f f a a f f a f 6 f f 6 6 f f f f b a a a a f f f 
+a a a a a a a a a a a 6 a a a a a a a a a f f f a a f f a a f 6 f 8 6 f f f 6 a a f f f f f f f 
+f a f f f f f f f f f 6 f f f f f f a a a f f a a f f a a f f a f f f f b a 6 f f f f f f f f f 
+f a a f f f f f f f f 6 f f f f f f f a f f a a a a a a b f f a f f f a a f 6 f f f f f f f f f 
+f f a f f f b a a a a a a a f f f f f a f f a f f f f a a f f a 6 6 a a f f 6 f f f f f f f f f 
+f f a f f f f f f f f f f f f f f f f a f f a f f f f a a f f a f f f f f f 6 f f f f f f a f f 
+f f a a f f 9 9 9 f a b f f f f f f f a f a a a f f a a f f a b f f f f f f 9 f f f f f f 6 f f 
+f f f a a 9 9 9 9 f f a f f f a f f f a f f f f f a a f f f a f f f f f f f 9 f f f f f f 6 f f 
+f f f f a f 9 9 9 9 f a b f f b a f f a f f a a a a f f f f a f f f f f f f b 9 f f f f f 6 f f 
+f f a a a f f 9 9 9 f f a f f f a a f a f f a f f f f f f a b f f f f f f f f 9 f f f f f 6 f f 
+f a a f a a f f 9 9 9 f a b f f f a f a f f a f f f a a a b f f f f f f f f f b 9 f f f f 6 f f 
+f f f f a a a f f 9 9 f f a 6 6 6 6 6 6 a a a f a a b f f f f f f f f f f f f f 9 f f f f 8 f f 
+f f f f a f a a f 9 9 9 f a f f f f f f f f a a b f f f f f f f f f f f f f f f 9 b f f f 8 f f 
+f f f a a f f a f f 9 9 f b a f f f f f f f b f f f f f f f f f f f f a a a 6 f f 9 f f f f f f 
+f f a a f f f a a f f f f f a a f f f f f a a f f f f f f f f f f a a 6 f f 6 f f 9 b f f f f f 
+f f a f f f f f a a f f f f f f f f f 6 a a f f f f f f f a a a a 6 f f f f 6 f f f 9 f f f f f 
+f a a a a f f f f a b f f f f f f a a a b f f f f f a a a 6 f f f f f f f f 6 f f f 9 b f f f f 
+f a f f a a f f f f f f f a f f f f f f f f f f a a 6 f f f f f f f f f f f 6 f a f f 9 f f f f 
+f f f f f a a a f f f f f a f f f f f f f f a a 6 f f f f f f f f f f f f f 6 6 a f f 9 6 6 6 6 
+f b a a f f f a a a f f a 6 6 6 6 6 6 6 a 6 6 f f f f f f f f f f f f f f f 6 a f f f f f f f 6 
+f f f a a f f f f a f f a f f f f f a a f f f f f f f f f f b f f f f f f 6 a f f f f f f f f 6 
+f f f f a a a a a a f f a f f f f f f f f f f f f f f f f a a f f f f f 6 a f f f f f f f f a a 
+f f f f a a f f f a f f a f f f f f f f f f f f f f f a a a f f f f f f 9 f f f f f f f f f a f 
+f f f a a f f f f 6 f f f f f f f a a 6 6 6 6 6 6 f a a f f f f f f f f 9 f f f f f b a a a b f 
+f f f a f f f f f 6 f f f f f f a a f f f f f f 6 6 6 f f f f f f f f a 6 6 f f f f a f f f f f 
+f f f f f f f f f 6 f f f f a a a f f f f f f f a a f f f f f f f f a a f 6 6 6 f f a f f f f f 
+f f f f f f f f f 6 f a a a a f f f f f f f a a a f f f f f f f f 6 a f f f f 6 6 a b f f f f f 
+f f f f 5 5 5 5 a a a a f f f f f f f f a a a f f f f f f f f f 6 a f f f f b a f f f f f f f f 
+f f 5 5 5 a a a a 5 f f f f f f f f f a a f f f f f f f f f f f a f f f f f a 6 f f f f f f f f 
+f f 5 2 a a 5 5 5 5 f f f f f f f f b a f f f f f f f f f f f f b f f f f f f f f f f f f f f f 
 f f 5 5 5 5 5 f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f 8 2 
 `, img`
 8 8 c 9 c 9 c c 9 9 9 9 c c c c 9 9 c c c c c 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
@@ -945,9 +1036,6 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 info.onLifeZero(function () {
     game.over(false)
-})
-sprites.onOverlap(SpriteKind.computer, SpriteKind.computer, function (sprite, otherSprite) {
-    scene.placeOnRandomTile(info2, 11)
 })
 let vender: Sprite = null
 let info2: Sprite = null
