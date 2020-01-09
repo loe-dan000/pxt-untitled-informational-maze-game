@@ -5,7 +5,8 @@
         "animation": "*",
         "palette": "*",
         "storyboard": "*",
-        "corgio": "*"
+        "corgio": "*",
+        "color-coded-tilemap": "*"
     },
     "description": "",
     "files": [
@@ -16,5 +17,8 @@
     "preferredEditor": "blocksprj",
     "testFiles": [
         "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
     ]
 }

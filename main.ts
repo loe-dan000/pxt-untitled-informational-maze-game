@@ -295,7 +295,7 @@ f 1 f . f 1 1 1 1 1 1 f f f f f f . . . . . . .
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`, hero, hero.vx, hero.vy)
+`, hero, hero.vx * 2, hero.vy * 2)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy()
@@ -453,22 +453,23 @@ c c c c c c f e f c c c c c c e
 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
 `, false)
     scene.setTile(9, img`
-f a a a a a a c c a a a a a a c 
-a f f f f f c a a c f f f f f c 
-a f f f f c a f f f c f f f f c 
-a f f f c a f f f f f c f f f c 
-a f f c a f f f f f f f c f f c 
-a f c a f f f f f f f f f c f c 
-a c a f f f f f f f f f f f c f 
-c a f f f f f f f f f f f f f c 
-c a f f f f f f f f f f f f c a 
-a c f f f f f f f f f f f c a c 
-a f c f f f f f f f f f c a f c 
-a f f c f f f f f f f c a f f c 
-a f f f c f f f f f c a f f f c 
-a f f f f c f f f c a f f f f c 
-a f f f f f c f c a f f f f f c 
-c c c c c c f c a c c c c c c a 
+f a a a a a a c c a a a a a a a c 
+a f f f f f c a a c f f f f f f c 
+a f f f f c a f f f c f f f f f c 
+a f f f c a f f f f f c f f f f c 
+a f f c a f f f f f f f c f f f c 
+a f c a f f f f f f f f f c f f c 
+a c a f f f f f f f f f f f c f c 
+c a f f f f f f f f f f f f f c c 
+c a f f f f f f f f f f f f c f c 
+a c f f f f f f f f f f f c a f c 
+a f c f f f f f f f f f c a f f c 
+a f f c f f f f f f f c a f f f c 
+a f f f c f f f f f c a f f f f c 
+a f f f f c f f f c a f f f f f c 
+a f f f f f c f c a f f f f f f c 
+a f f f f f f f f f f f f f f f c 
+c c c c c c c c c c c c c c c c a 
 `, false)
     scene.setTile(7, img`
 f a a a a a a c c a a a a a a c 
@@ -944,6 +945,9 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 info.onLifeZero(function () {
     game.over(false)
+})
+sprites.onOverlap(SpriteKind.computer, SpriteKind.computer, function (sprite, otherSprite) {
+    scene.placeOnRandomTile(info2, 11)
 })
 let vender: Sprite = null
 let info2: Sprite = null
